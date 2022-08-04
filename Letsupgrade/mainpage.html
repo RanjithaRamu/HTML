@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Simple Header Navigation</title>
+    <link rel="icon" href="icon.jpeg">
+    <style>*
+    {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body{
+        position:relative;
+    }
+    header{
+        position: fixed;
+        top:0;
+        width: 100%;
+        background-color:skyblue;
+        display:flex;
+    }
+    
+    li{
+        list-style: none;
+    }
+    a{
+        color:white;
+        text-decoration: none;;
+    }
+    .container{
+        width: 1280px;
+        margin: auto;
+    
+    }
+    
+    .navbar{
+        width:95%;
+        margin: auto;
+        min-height: 70px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .nav-menu{
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
+    .nav-branding{
+        font-size: 2rem;
+    }
+    .Home,.About,.Contact{
+        height: 500px;
+        width: 500px;
+        margin-top: 100px;
+        border:1px black solid;
+       
+    }
+    .About,.Contact{
+        margin-top: 0;
+    }
+ 
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+            <a href="/" class="nav-branding">Letsupgrade</a>
+        <u1 class="nav-menu">
+            <li class="nav-link">
+            <a href="home.html">Home</a></li>
+            <li class=""nav-link">
+                <a href="about.html">About</a></li>
+                <li class=""nav-link">
+                    <a href="contact.html">Contact</a></li>
+        </u1></nav>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="Home">
+                <h1>Home</h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="About">
+                <h1>About</h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="Contact">
+                <h1>Contact</h1>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
